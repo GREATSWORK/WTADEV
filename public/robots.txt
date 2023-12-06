@@ -1,0 +1,11 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow:
+
+User-agent: Googlebot
+Disallow: /nogooglebot/
+
+User-agent: *
+Allow: /
+
+Sitemap: https://wellasrentacar.com/sitemap.xml
